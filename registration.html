@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            align-content: center;
+            text-align: center;
+            padding: 100px;
+        }
+        p{
+            font-size:xx-large;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Page</h2>
+    <hr />
+    <!-- action="homepage.html" -->
+    <form >
+        <p>Sign Up</p>
+        <label for="#input-username">Enter your email and password below
+
+        </label>
+        <br/>
+        <br/>
+        <!-- <p>Enter your username and password below</p> -->
+        <input type="text" name ="input-email" id="email"
+        placeholder="email" required>
+        <br/>
+        <br/>
+        <label for="newpassword">Enter your password
+        </label>
+        <br/>
+        <br/>
+
+        <input type="text" name="newpassword" placeholder="new password"  id="" required >
+
+        <br/>
+        <br/>
+        <label for=" confirmpassword">Confirm your password
+        </label>
+        <br/>
+        <br/>
+        <input type="text" name="confirmpassword" placeholder="confirm password" id="" required>    
+        <br/>
+        <br/>
+        <input type="submit" placeholder="Submit" onclick="alert('Account created successfully!')
+        " >
+
+    </form>
+
+    <script type="text/javascript">
+        var _email = document.getElementById("email")
+        console.log(_email)
+    </script>
+</body>
+</html>
